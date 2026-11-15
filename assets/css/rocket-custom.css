@@ -1,0 +1,302 @@
+/* ========================================
+   ROCKET ELEVATORS — GLOBAL STYLES
+   ======================================== */
+
+/* Elevator Industry News image sizing */
+#news img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Rocket Elevators brand colors */
+:root {
+    --rocket-blue: #0A46A0;
+    --rocket-blue-hover: #083778;
+}
+
+/* Bootstrap warning buttons */
+.btn-warning,
+.btn-warning:focus,
+.btn-warning:active {
+    background-color: var(--rocket-blue) !important;
+    border-color: var(--rocket-blue) !important;
+    color: #FFFFFF !important;
+}
+
+/* Button hover */
+.btn-warning:hover {
+    background-color: var(--rocket-blue-hover) !important;
+    border-color: var(--rocket-blue-hover) !important;
+    color: #FFFFFF !important;
+}
+
+/* Common warning backgrounds and accents */
+.bg-warning,
+.text-warning,
+.badge-warning,
+.progress-bar-warning {
+    background-color: var(--rocket-blue) !important;
+    border-color: var(--rocket-blue) !important;
+    color: #FFFFFF !important;
+}
+
+/* Common warning borders */
+.border-warning {
+    border-color: var(--rocket-blue) !important;
+}
+
+
+/* ========================================
+   ROCKET ELEVATORS — COMMERCIAL PAGE
+   ======================================== */
+
+/* Commercial hero background */
+#home.commercial-hero {
+    background:
+        linear-gradient(
+            rgba(8, 25, 45, 0.85),
+            rgba(8, 25, 45, 0.85)
+        ),
+        url('../images/rocketElevators/commerical-hero1.jpeg')
+        center center / cover no-repeat;
+}
+
+/* Commercial hero paragraph */
+#home.commercial-hero p {
+    color: #ffffff;
+    font-weight: 400 !important;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Commercial hero heading — consolidated */
+#home.commercial-hero h1 {
+    color: #0056b3;
+    font-weight: 900;
+    -webkit-text-stroke: 0.1px #ffffff;
+    text-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.25);
+}
+
+/* Commercial hero button */
+#home.commercial-hero a.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Commercial installation features section */
+#features {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+#features h2,
+#features p,
+#features .lead {
+    color: #ffffff;
+}
+
+#features hr {
+    border: 0;
+    border-top: 2px solid #ffffff;
+    opacity: 1;
+}
+
+#features i {
+    color: #ffffff;
+}
+
+/* Commercial feature card headings */
+#features .row h3,
+#features .row h4 {
+    color: #ffffff !important;
+}
+
+
+/* ========================================
+   ROCKET ELEVATORS — HOMEPAGE BUTTONS
+   ======================================== */
+
+/* Homepage hero buttons */
+.slider .fullwidthbanner a.btn-warning {
+    background-color: #0056b3 !important;
+    border-color: #0056b3 !important;
+    color: #ffffff !important;
+}
+
+.slider .fullwidthbanner a.btn-default {
+    background-color: #c62828 !important;
+    border-color: #c62828 !important;
+    color: #ffffff !important;
+}
+
+/* Homepage parallax buttons */
+.parallax a.btn-default {
+    background-color: #c62828 !important;
+    border-color: #c62828 !important;
+    color: #ffffff !important;
+}
+
+.parallax a.btn-warning {
+    background-color: #0056b3 !important;
+    border-color: #0056b3 !important;
+    color: #ffffff !important;
+}
+
+/* Homepage — Ready to Elevate callout */
+#commercial-quote {
+    border: 2px solid #c62828;
+    border-radius: 8px;
+    margin: 30px auto;
+}
+
+
+/* ========================================
+   ROCKET ELEVATORS — RESIDENTIAL PAGE
+   Red primary color with blue accents
+   ======================================== */
+
+/* Residential hero background */
+.residential-page #home.residential-hero {
+    min-height: 450px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(145, 28, 35, 0.78) 0%,
+            rgba(145, 28, 35, 0.55) 48%,
+            rgba(23, 33, 45, 0.18) 100%
+        ),
+        url('../images/rocketElevators/resPortfolio8.png')
+        center center / cover no-repeat;
+}
+
+/* Residential hero heading */
+.residential-page #home.residential-hero h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.15;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Residential hero paragraph */
+.residential-page #home.residential-hero p {
+    color: #ffffff;
+    font-weight: 400 !important;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Residential hero buttons */
+.residential-page #home.residential-hero a.btn-red {
+    background-color: #c62828;
+    border-color: #c62828;
+    color: #ffffff;
+}
+
+.residential-page #home.residential-hero a.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Residential services section */
+.residential-page #features {
+    background-color: #c62828;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+.residential-page #features h2,
+.residential-page #features p,
+.residential-page #features .lead,
+.residential-page #features .row h3,
+.residential-page #features .row h4 {
+    color: #ffffff !important;
+}
+
+.residential-page #features hr {
+    border: 0;
+    border-top: 2px solid #ffffff;
+    opacity: 1;
+}
+
+.residential-page #features i {
+    color: #ffffff;
+}
+
+
+/* Residential testimonials */
+.residential-page #testimonials {
+    background-color: #f3f5f8;
+    padding: 60px 0;
+}
+
+.residential-page #testimonials h2 {
+    color: #172b45;
+    font-weight: 800;
+}
+
+.residential-page #testimonials .lead {
+    color: #435166;
+}
+
+.residential-page #testimonials .testimonial {
+    background-color: #ffffff;
+    border: 1px solid #dfe5ec;
+    border-top: 3px solid #0056b3;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+
+/* Residential quote callout */
+.residential-page #residential-quote {
+    background-color: #f5f6f8;
+    color: #172b45;
+    border: 2px solid #0056b3;
+    border-radius: 8px;
+    margin: 30px auto;
+    padding: 45px 20px;
+}
+
+.residential-page #residential-quote h2 {
+    color: #172b45;
+}
+
+.residential-page #residential-quote p {
+    color: #435166;
+}
+
+.residential-page #residential-quote a.btn-primary {
+    background-color: #c62828;
+    border-color: #c62828;
+    color: #ffffff;
+}
+
+
+/* Residential mobile styles */
+@media (max-width: 767px) {
+    .residential-page #home.residential-hero h1 {
+        font-size: 38px;
+    }
+
+    .residential-page #home.residential-hero p {
+        font-size: 20px;
+    }
+}
+
+
+/* ========================================
+   ROCKET ELEVATORS — FOOTER
+   ======================================== */
+
+#footer {
+    position: relative;
+    width: 100vw;
+    max-width: none;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    box-sizing: border-box;
+}
