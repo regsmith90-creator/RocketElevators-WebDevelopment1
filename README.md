@@ -1,5 +1,17 @@
 # Rocket Elevators – Web Development 1
 
+## Table of Contents
+- [Description](#description)
+- [Pages](#pages)
+- [Technology Stack](#technology-stack)
+- [Project Structure](#project-structure)
+- [Installation and Setup](#installation-and-setup)
+- [Environment Variables](#environment-variables)
+- [APIs](#apis)
+- [Known Issues](#known-issues)
+- [Branching](#branching)
+- [Author](#author)
+
 ## Description
 A multi-page static marketing website for **Rocket Elevators**, an elevator company operating since 1976. The site promotes the brand, showcases residential and commercial services, displays a portfolio, testimonials, industry news and partner logos, and gives visitors a way to contact the company or request a quote.
 
@@ -62,10 +74,10 @@ None. The project is fully static and uses no credentials or secrets.
 The project does not consume any API. The only external embed is Google Maps (iframe) in the Contact section. The contact form is front-end only in this module and is not wired to a back end.
 
 ## Known Issues
-No known console errors were identified in a static check; all linked local files resolve. Browser console behavior should be confirmed when reviewing.
+None. The installation steps were tested, all links work, and no console errors were found.
 
 ## Branching
 Work was done on the `dev` branch and merged into `main` for submission.
 
 ## Author
-Gee Smith
+Gee Smith – [@regsmith90-creator](https://github.com/regsmith90-creator)
