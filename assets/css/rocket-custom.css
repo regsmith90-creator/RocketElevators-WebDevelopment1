@@ -300,3 +300,29 @@
     margin-right: calc(50% - 50vw);
     box-sizing: border-box;
 }
+
+/* Portfolio: make every photo the same size */
+#portfolio .item-box figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+#portfolio .item-box figure img {
+  width: 100% !important;
+  height: 300px !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block !important;
+  position: static !important;
+  left: auto !important;
+}
+
+/* On big monitors, stop the slider from stretching forever */
+@media (min-width: 1600px) {
+  .fullwidthbanner-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #111; /* colour of the empty sides, if there are any */
+  }
+}
+
