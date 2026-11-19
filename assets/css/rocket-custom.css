@@ -309,7 +309,7 @@
 
 #portfolio .item-box figure img {
   width: 100% !important;
-  height: 300px !important;
+  height: 200px !important;
   object-fit: cover !important;
   object-position: center center !important;
   display: block !important;
